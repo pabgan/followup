@@ -17,7 +17,6 @@ then
 else
 	date=$(date --iso-8601 --date="next week")
 fi
-echo $date
 
 # we get the text of the item
 tofollowup=$(head -n "$line" "$TODO_FILE" | tail -n 1)
