@@ -5,7 +5,7 @@ line=$2
 if [ "$line" = "usage" ] || [ $# = 1 ] 
 then
   echo "  Follow up on item:"
-  echo "    followup [ID] [date]"
+  echo "    followup ID [date]"
   echo "   default date is next week"
   echo ""
   exit
