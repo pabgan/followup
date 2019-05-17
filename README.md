@@ -17,11 +17,13 @@ If no date is provided *"next week"* will be used by default.
 For example:
 
 ```
-pablo@maFalda:~$ todo.sh followup 48 "next thursday"
-2019-04-04
-48 x 2019-04-01 2019-04-01 test task
-TODO: 48 marked as done.
-x 2019-04-01 2019-04-01 test task
-48 2019-04-01 @followup: test task t:2019-04-04
-PERSONAL-TODO: 48 added.
+pablo@maFalda:~$ todo.sh add test
+16 2019-05-17 test
+TRABAJO-TODO: 16 added.
+
+pablo@maFalda:~$ todo.sh followup 16 "next thursday"
+16 x 2019-05-17 2019-05-17 test
+TODO: 16 marked as done.
+17 2019-05-17 @followup: test t:2019-05-23
+TRABAJO-TODO: 17 added.
 ```
