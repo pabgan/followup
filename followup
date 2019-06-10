@@ -27,4 +27,4 @@ tofollowup=$(sed 's/[0-9,-]\+ //' <(echo $tofollowup))
 # we DO the item
 "$TODO_SH" command do "$line"
 # add new follow up item
-"$TODO_SH" command add "@followup: $tofollowup t:$date"
+"$TODO_SH" command add "(A) @followup: $tofollowup t:$date"
