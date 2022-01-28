@@ -35,4 +35,4 @@ $TODO_SH command do $line
 output=$($TODO_SH command add "@followup $tofollowup t:$date")
 # prioritize it
 tasknumber=$(cut -d' ' <(echo $output) -f 1)
-$TODO_SH command pri $tasknumber a
+$TODO_SH command pri $tasknumber b
